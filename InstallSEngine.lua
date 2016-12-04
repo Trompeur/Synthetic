@@ -55,7 +55,7 @@ until
 if require(game.ReplicatedStorage:FindFirstChild('SyntheticEngine')):CheckStatus() == true then
 	done = true
 	IL.ImageTransparency = 1
-	Inst.Text = 'Installation Complete'
+	Inst.Text = 'Installation Complete | Check ReplicatedStorage'
 	for i=1,100 do
 		game["Run Service"].RenderStepped:wait()
 		frame.BackgroundTransparency = i/100
