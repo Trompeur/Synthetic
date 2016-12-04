@@ -1,2 +1,2 @@
 -- Installer by Trompeur
-print("Beginning Installer..")
+print("Installing")
