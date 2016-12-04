@@ -62,4 +62,5 @@ if require(game.ReplicatedStorage:FindFirstChild('SyntheticEngine')):CheckStatus
 		TL.TextTransparency = i/100
 		Inst.TextTransparency = i/100
 	end
+	gui:Destroy()
 end
