@@ -44,7 +44,7 @@ end)
 --Creation of Synthetic Engine--
 local SEngine = Instance.new("ModuleScript", game.ReplicatedStorage)
 SEngine.Source = game:service'HttpService':GetAsync'https://raw.githubusercontent.com/Trompeur/Synthetic/master/SyntheticEngine.lua'
-wait(3)
+wait(3) --Potentially Reduce this
 require(SEngine):InitiateSynthetic()
 
 
