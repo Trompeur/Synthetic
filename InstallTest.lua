@@ -40,6 +40,13 @@ spawn(function()
 		game["Run Service"].RenderStepped:wait()
 	end
 end)
+
+--Creation of Synthetic Engine--
+local SEngine = Instance.new("ModuleScript", game.ReplicatedStorage)
+SEngine.Source = game:service'HttpService':GetAsync'https://raw.githubusercontent.com/Trompeur/Synthetic/master/TestingSEngine.lua'
+require(SEngine):InitiateSynthetic()
+
+
 repeat wait()
 until
 	game.ReplicatedStorage:FindFirstChild('SyntheticEngine')
