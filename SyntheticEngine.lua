@@ -36,6 +36,8 @@
 	- Make things chat
 	
 	- Easy Ban System
+
+	- Easy Announcements System
 	
 	- More Coming Soon
 	
